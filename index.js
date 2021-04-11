@@ -1,8 +1,3 @@
-//define the characters I dont need .
-// const notAllowed = (value) => {
-
-
-
 //this function accepts the correct characters
 const numOperand = (value) => {
     let operators  = [`+`, `-`, `*`, `/`]
@@ -25,8 +20,10 @@ const operation = (number1,operators,number2) => {
     return number1 / number2
     }
  
-console.log(operation(2,'+',7))
+//create calculate function
+const calculate = (value) => {
+    
+        
 
 
-// define rules.
-// create main function which will do the arrithmetic calculation.
+}
